@@ -1,0 +1,25 @@
+{
+  "name": "padrao-mvc",
+  "version": "1.0.0",
+  "description": "Projeto modelo",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MairaLourencoDEV/padrao-mvc.git"
+  },
+  "author": "Maíra\"\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\"M\u001b[C\u001b[C\u001b[aíra\"",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MairaLourencoDEV/padrao-mvc/issues"
+  },
+  "homepage": "https://github.com/MairaLourencoDEV/padrao-mvc#readme",
+  "keywords": [],
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemon": "^2.0.22"
+  }
+}
