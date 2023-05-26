@@ -1,7 +1,7 @@
 const express = require("express");
 const index = require("./routes/index");
 const db = require ("./config/dbConnect.js");
-const empreendedoras = require(".models/empreendedoras");
+const empreendedoras = require("./models/empreendedoras");
 const app = express();
 
 app.use(express.json());
@@ -14,4 +14,5 @@ db.once("open", () => {
 });
 
 module.exports = app;
+
 
